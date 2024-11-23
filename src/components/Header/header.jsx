@@ -5,11 +5,10 @@ function Header(){
     document.body.classList.toggle("lightmode")
   }
   function menu(){
-    
-    if(nav.style.display == 'flex'){
-      nav.style.display = 'none'
+    if(mobileNav.style.display == 'flex'){
+      mobileNav.style.display = 'none'
     }else{
-      nav.style.display = 'flex'
+      mobileNav.style.display = 'flex'
     }
   }
   return(
@@ -17,7 +16,7 @@ function Header(){
       <header>
         <h2>NY</h2>
         <nav id='nav'>
-          <a class="links nav" href="#home">Home</a>
+          <a class="links nav" href="#">Home</a>
           <a class="links nav" href="#">sobre</a>
           <a  class="links nav"href="#projetos">Projetos</a>
           <a class="links nav" href="#">Contatos</a>
@@ -30,6 +29,12 @@ function Header(){
             <div className="items-menu"></div>
           </button>
         </div>
+        <nav id='mobileNav'>
+          <a class="links nav" href="#">Home</a>
+          <a class="links nav" href="#">sobre</a>
+          <a  class="links nav"href="#projetos">Projetos</a>
+          <a class="links nav" href="#">Contatos</a>
+        </nav>
       </header>
     </>
   )
