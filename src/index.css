@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'sharp-light';
+  src: url(./assets/fonts/SharpGrotesk-Light25.otf) format('opentype');
+}
+@font-face {
+  font-family: 'sharp-medium';
+  src: url(./assets/fonts/SharpGrotesk-Medium25.otf) format('opentype');
+}
+@font-face {
+  font-family: 'sharp-bold';
+  src: url(./assets/fonts/SharpGrotesk-SemiBold25.otf) format('opentype');
+}
+@font-face{
+  font-family: 'light-italic';
+  src: url(./assets/fonts/SharpGrotesk-LightItalic10.otf) format('opentype');
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: var(--font-medium);
+}
+:root{
+  /*CORES*/
+  --color-base:#000;
+  --back-color:#ebebeb;
+  --mark-color1:#11dcf0;
+  --mark-color2: #fd47b1;
+  --mark-color3: #a18fde;
+  --back-color-2:#d3d3d3;
+  /*BTN DARK LIGHT*/
+  --btn-position: flex-end;
+  /*FONTES*/
+  --font-medium: 'sharp-medium', Helvetica, sans-serif;
+  --font-bold: 'sharp-bold', Helvetica, sans-serif;
+  --font-italic: 'light-italic', helvetica, sans-serif;
+  --font-light: 'sharp-light', Helvetica, sans-serif;
+}
+.lightmode{
+  --color-base:#fff;
+  --back-color:#000;
+  --back-color-2: #22242E;
+  --btn-position: flex-start;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: var(--back-color);
+  color: var(--color-base);
+}
+.root{
+  position: relative;
+}
+a{
+  color: var(--color-base1);
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  width: 9px;
+  background-color: var(--mark-color3);
+  border-radius: 5px;
+}
