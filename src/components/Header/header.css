@@ -80,6 +80,7 @@ header{
     display: flex;
   }
   #nav{
+    display: none;
     position: absolute;
     top: 95px;
     right: 5px;
