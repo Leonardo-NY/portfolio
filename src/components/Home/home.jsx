@@ -8,7 +8,6 @@ function Home(){
             <h1>Leo.</h1>
             <h2>FRONT-END / UI DESIGN</h2>
           </div>
-          <div className="img-home"></div>
           <div className='msg'>
             <span>001</span>
             <div>

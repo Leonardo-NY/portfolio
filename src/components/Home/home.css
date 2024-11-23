@@ -1,3 +1,4 @@
+/*PARTE INICIAL DA HOME*/
 .start{
   height: calc(100vh - 90px);
   width: 100vw;
@@ -8,12 +9,16 @@
   font-size: 1vh;
   margin-bottom: 20%;
   position: relative;
+  background: url(../../assets/images/teste-back.png) 
+  no-repeat 
+  center top;
 }
-.img-home{
-  height: 100%;
-  flex: 1 0 40%;
-  background-image: url(../../assets/images/teste-back.png);
-  background-repeat: no-repeat;
+@media (max-width: 990px){
+  .start{
+    background: url(../../assets/images/teste-back.png) 
+    no-repeat 
+    left top ;
+  }
 }
 .titulo{
   margin-left: 10%;
@@ -23,9 +28,6 @@
   font-size: 10em;
 }
 .msg{
-  position: absolute;
-  right: 0;
-  bottom: 30%;
   display: flex;
   align-items: center;
   gap: 40px;
@@ -45,6 +47,7 @@
 .msg p{
   font-family: var(--font-medium);
 }
+/*PARTE FINAL DA HOME*/
 .end{
   height: calc(100vh - 90px);
   display: flex;
