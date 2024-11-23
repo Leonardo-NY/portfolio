@@ -12,20 +12,6 @@
   no-repeat 
   center top;
 }
-@media (max-width: 990px){
-  .start{
-    background: url(../../assets/images/teste-back.png) 
-    no-repeat 
-    left top ;
-  }
-}
-@media (max-width: 650px){
-  .start{
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-around;
-  }
-}
 .titulo{
   margin-left: 10%;
   margin-bottom: 15%;
@@ -52,6 +38,20 @@
 }
 .msg p{
   font-family: var(--font-medium);
+}
+@media (max-width: 990px){
+  .start{
+    background: url(../../assets/images/teste-back.png) 
+    no-repeat 
+    left top ;
+  }
+}
+@media (max-width: 650px){
+  .start{
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+  }
 }
 /*PARTE FINAL DA HOME*/
 .end{
