@@ -1,5 +1,5 @@
 import './home.css'
-export function Home(){
+function Home(){
   return(
     <>
       <main>
@@ -35,3 +35,4 @@ export function Home(){
     </>
   )
 }
+export default Home
