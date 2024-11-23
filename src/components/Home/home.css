@@ -12,6 +12,7 @@
   background: url(../../assets/images/teste-back.png) 
   no-repeat 
   center top;
+  mask-image: linear-gradient(to bottom, var(--back-color) 50%, rgba(0,0,0, 0.01) 90%);
 }
 @media (max-width: 990px){
   .start{
