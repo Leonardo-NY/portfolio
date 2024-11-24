@@ -23,12 +23,12 @@
 }
 :root{
   /*CORES*/
-  --color-base:#000;
-  --back-color:#ebebeb;
+  --color-base:#fff;
+  --back-color:#000;
+  --back-color-2: #22242E;
   --mark-color1:#11dcf0;
   --mark-color2: #fd47b1;
   --mark-color3: #a18fde;
-  --back-color-2:#d3d3d3;
   /*BTN DARK LIGHT*/
   --btn-position: flex-end;
   /*FONTES*/
@@ -38,9 +38,9 @@
   --font-light: 'sharp-light', Helvetica, sans-serif;
 }
 .lightmode{
-  --color-base:#fff;
-  --back-color:#000;
-  --back-color-2: #22242E;
+  --color-base:#000;
+  --back-color:#ebebeb;
+  --back-color-2:#d3d3d3;
   --btn-position: flex-start;
 }
 html{
