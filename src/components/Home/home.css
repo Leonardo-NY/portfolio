@@ -8,7 +8,7 @@
   font-size: 1vh;
   margin-bottom: 20%;
   position: relative;
-  background: url(../../assets/images/teste-back.png) 
+  background: url() 
   no-repeat 
   center top;
 }
@@ -41,7 +41,7 @@
 }
 @media (max-width: 990px){
   .start{
-    background: url(../../assets/images/teste-back.png) 
+    background: url() 
     no-repeat 
     left top ;
   }

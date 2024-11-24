@@ -6,7 +6,7 @@ function Home(){
         <div className='start'>
           <div className='titulo'>
             <h1>Leo.</h1>
-            <h2>FRONT-END / UI DESIGN</h2>
+            <h2>DESENVOLVEDOR / FRONT-END</h2>
           </div>
           <div className='msg'>
             <span>001</span>
