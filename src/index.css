@@ -39,7 +39,7 @@
 }
 .lightmode{
   --color-base:#000;
-  --back-color:#ebebeb;
+  --back-color:#ededed;
   --back-color-2:#d3d3d3;
   --btn-position: flex-start;
 }
