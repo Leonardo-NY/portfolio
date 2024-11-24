@@ -55,7 +55,7 @@
 }
 /*PARTE FINAL DA HOME*/
 .end{
-  height: calc(100vh - 90px);
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -69,7 +69,7 @@
   display: inline;
   color: var(--mark-color2);
 }
-.end .left-post{
+.end .right-post{
   flex: 0 1 60%;
 }
 main{
