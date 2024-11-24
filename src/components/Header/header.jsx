@@ -21,20 +21,7 @@ function Header(){
           <a  class="links nav"href="#projetos">Projetos</a>
           <a class="links nav" href="#">Contatos</a>
         </nav>
-        <div className='btns'>
-          <button id="mode"onClick={btnModo} className=''><div></div></button>
-          <button onClick={menu} id="menu">
-            <div className="itemsMenu"></div>
-            <div className="itemsMenu"></div>
-            <div className="itemsMenu"></div>
-          </button>
-        </div>
-        <nav id='mobileNav'>
-          <a class="links nav" href="#">Home</a>
-          <a class="links nav" href="#">sobre</a>
-          <a  class="links nav"href="#">Projetos</a>
-          <a class="links nav" href="#">Contatos</a>
-        </nav>
+        <button id="mode"onClick={btnModo} className=''><div></div></button>
       </header>
     </>
   )
