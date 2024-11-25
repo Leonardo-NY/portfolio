@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: space-between;
   font-size: 1vh;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
   position: relative;
   background: url() 
   no-repeat 
@@ -48,7 +48,7 @@
 }
 @keyframes line-home {
   0%{
-    transform-origin: 0 20px;
+    transform-origin: 0 140px;
     filter: hue-rotate(0deg) ;
   }
   20%{
@@ -96,12 +96,23 @@
     align-items: start;
     justify-content: space-around;
   }
+  .item p {
+    font-size: 9px;
+  }
 }
 /*CARROSSEL*/
 .carrossel{
   display: flex;
   justify-content: space-around;
   position: relative;
+}
+.carrossel::before{
+  content: 'usadas na criação do site';
+  position: absolute;
+  right: 5px;
+  top: -30px;
+  font-size: 10px;
+  font-family: var(--font-light);
 }
 .item{
   display: flex;
@@ -122,11 +133,6 @@
   background-color: var(--color-base);
   width: 5vw;
   height: 1px;
-}
-@media(max-width: 650px){
-  .item p {
-    font-size: 9px;
-  }
 }
 @keyframes carrossel{
   0%{
