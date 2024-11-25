@@ -29,6 +29,9 @@ function Home(){
         <div className='end'>
           <h2>Eu crio interfaces <div>não convencionais</div>, mas funcionais e visualmente agradáveis para o celular e a web.</h2>
           <div className='right-post'>
+            <div className="post um"></div>
+            <div className="post dois"></div>
+            <div className="post tres"></div>
           </div>
         </div>
       </main>
