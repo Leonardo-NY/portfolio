@@ -41,8 +41,8 @@
   background-color: var(--co-li);
   box-shadow: 0 0 5px var(--co-li),
   0 0 15px var(--co-li),
-  0 0 30px var(--co-li),
-  0 0 50px var(--co-li);
+  0 0 20px var(--co-li),
+  0 0 23px var(--co-li);
   animation: line-home 8s linear infinite;
   animation-delay: calc(var(--1) * 0.1s);
 }
