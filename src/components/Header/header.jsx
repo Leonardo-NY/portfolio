@@ -14,8 +14,8 @@ function Header(){
   return(
     <>
       <header>
-        <h2>NY</h2>
         <nav id='nav'>
+          <h2>NY</h2>
           <a class="links nav" href="#">Home</a>
           <a class="links nav" href="#">sobre</a>
           <a  class="links nav"href="#projetos">Projetos</a>

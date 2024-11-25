@@ -49,6 +49,7 @@ html{
 body{
   background-color: var(--back-color);
   color: var(--color-base);
+  transition: background .5s linear;
 }
 .root{
   position: relative;
