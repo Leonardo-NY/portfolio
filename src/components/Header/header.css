@@ -95,7 +95,7 @@ header{
     content: 'Menu'
   }
   #nav.active #btnMenu::before{
-    content: 'fechar'
+    content: 'Fechar'
   }
   #menu{
     display: none;
