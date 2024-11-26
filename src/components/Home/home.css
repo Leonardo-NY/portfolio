@@ -48,7 +48,7 @@
 }
 @keyframes line-home {
   0%{
-    transform-origin: 0 150px;
+    transform-origin: 0 200px;
     filter: hue-rotate(0deg) ;
     background-position: 0;
   }
