@@ -7,9 +7,6 @@ function Home(){
           <div className='titulo'>
             <h1>Leo.</h1>
             <h2>DESENVOLVEDOR / FRONT-END</h2>
-            <div className='animation-line'>
-              <span id="l1"></span><span id="l2"></span><span id="l3"></span><span id="l4"></span><span id="l5"></span><span id="l6"></span><span id="l7"></span><span id="l8"></span><span id="l9"></span><span id="l10"></span><span id="l11"></span><span id="l12"></span><span id="l13"></span><span id="l14"></span><span id="l15"></span><span id="l16"></span><span id="l17"></span><span id="l18"></span><span id="l19"></span><span id="l20"></span>
-            </div>
           </div>
           <div is='msgCon'>
             <div className='msg'>
