@@ -59,7 +59,7 @@
     align-items: start;
   }
   .msg{
-    translate: -20px;
+    translate: -30px;
   }
   .item p {
     font-size: 9px;
@@ -67,7 +67,7 @@
 }
 @media(max-width: 450px){
 .msg{
-    translate: -14vw;
+    translate: -22vw;
   }
 }
 /*CARROSSEL*/
