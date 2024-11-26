@@ -77,11 +77,12 @@
   position: relative;
 }
 .carrossel::before{
-  content: 'usadas na criação do site';
+  content: 'criação do site';
   position: absolute;
-  right: 5px;
+  right: 10px;
   top: -30px;
   font-size: 10px;
+  color: var(--back-color-2);
   font-family: var(--font-light);
 }
 .item{
