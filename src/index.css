@@ -14,6 +14,10 @@
   font-family: 'light-italic';
   src: url(./assets/fonts/SharpGrotesk-LightItalic10.otf) format('opentype');
 }
+@font-face{
+  font-family: 'jaguar';
+  src: url(./assets/fonts/JAGUAR.ttf) format('opentype');
+}
 *{
   margin: 0;
   padding: 0;
@@ -36,6 +40,7 @@
   --font-bold: 'sharp-bold', Helvetica, sans-serif;
   --font-italic: 'light-italic', helvetica, sans-serif;
   --font-light: 'sharp-light', Helvetica, sans-serif;
+  --font-num:'jaguar', helvetica, sans-serif;
 }
 .lightmode{
   --color-base:#000;

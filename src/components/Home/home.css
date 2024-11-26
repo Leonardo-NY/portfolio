@@ -33,7 +33,7 @@
 }
 .msg span{
   font-size: 10em;
-  font-family: var(--font-italic);
+  font-family: var(--font-num);
   font-weight: bolder;
 }
 .msg h3{
