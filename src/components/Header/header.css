@@ -90,6 +90,7 @@ header{
 @media(max-width: 600px){
   #btnMenu{
     display: flex;
+    margin: 0 10px;
   }
   #btnMenu::before{
     content: 'Menu'
@@ -101,7 +102,13 @@ header{
     display: none;
   }
   #nav.active #menu{
+    position: absolute;
     display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 95px;
+    right: 10px;
+    transition: all 1S;
   }
   #nav.active .hambur{
     border-top-color: transparent;
