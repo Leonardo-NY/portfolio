@@ -21,7 +21,6 @@ function Header(){
             <li><button id="mode"onClick={btnModo} className=''><div></div></button></li>
           </ul>
           <button id='btnMenu' onClick={menuMobile}>
-
             <span className="hambur"></span>
           </button>
         </nav>
