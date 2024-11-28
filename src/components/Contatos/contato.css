@@ -9,3 +9,15 @@ footer p{
   font-family: var(--font-light);
   font-size: .7em;
 }
+.contatos{
+  width: 100%;
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer img{
+  background-color: red;
+  width: 30px;
+  height: 30px;
+}
