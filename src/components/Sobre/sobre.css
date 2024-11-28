@@ -1,0 +1,17 @@
+#sobre{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10%;
+}
+#sobre p{
+  width: 300px;
+  text-align: start;
+}
+#p-sobre-um{
+  translate: -50px;
+}
+#p-sobre-dois{
+  translate: 50px;
+}
