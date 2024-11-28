@@ -6,20 +6,20 @@ function Contato(){
         <p>Precisa de um Desenvolvedor?</p>
         <h2>Vamos trabalhar juntos.</h2>
         <section className='contatos'>
-          <div>
-            <p>Instagran</p>
-            <img src="../../assets/images/i-insta.png" alt="" />
+          <div className='links-contatos'>
+            <p>Instagran</p> 
+            <span id='ico-insta'></span>
           </div>
-          <div>
+          <div className='links-contatos'>
             <p>Linkedin</p>
-            <img src="" alt="" />
+            <span id='ico-linke'></span>
           </div>
-          <div>
+          <div className='links-contatos'>
             <p>E-mail</p>
-            <img src="" alt="" />
+            <span id='ico-email'></span>
           </div>
         </section>
-        <p>&copy;2024 todos os direitos reservados.</p>
+        <p id='pfinal'>&copy;2024 todos os direitos reservados.</p>
 
       </footer>
     </>

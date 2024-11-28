@@ -49,8 +49,11 @@ header{
   background-color: transparent;
   border-radius: 10px;
   display: flex;
-  justify-content: var(--btn-position);
+  justify-content: flex-start;
   border: 1px solid var(--color-base);
+}
+body.darkMode #mode{
+  justify-content: flex-end;
 }
 #mode div{
   background-color: var(--mark-color1);
@@ -98,6 +101,12 @@ header{
   }
   #nav{
     translate: 0;
+  }
+  #menu a{
+    width: 0;
+  }
+  #nav.active #menu a::after{
+    width: 0;
   }
   #nav.active #btnMenu::before{
     content: 'Fechar'

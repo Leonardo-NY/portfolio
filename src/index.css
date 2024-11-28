@@ -27,14 +27,12 @@
 }
 :root{
   /*CORES*/
-  --color-base:#fff;
-  --back-color:#000;
-  --back-color-2: #22242E;
+  --color-base:#000;
+  --back-color:#ededed;
+  --back-color-2:#d3d3d3;
   --mark-color1:#11dcf0;
   --mark-color2: #fd47b1;
   --mark-color3: #a18fde;
-  /*BTN DARK LIGHT*/
-  --btn-position: flex-end;
   /*FONTES*/
   --font-medium: 'sharp-medium', Helvetica, sans-serif;
   --font-bold: 'sharp-bold', Helvetica, sans-serif;
@@ -42,11 +40,10 @@
   --font-light: 'sharp-light', Helvetica, sans-serif;
   --font-num:'jaguar', helvetica, sans-serif;
 }
-.lightmode{
-  --color-base:#000;
-  --back-color:#ededed;
-  --back-color-2:#d3d3d3;
-  --btn-position: flex-start;
+.darkMode{
+  --color-base:#fff;
+  --back-color:#000;
+  --back-color-2: #22242E;
 }
 html{
   scroll-behavior: smooth;
@@ -55,9 +52,6 @@ body{
   background-color: var(--back-color);
   color: var(--color-base);
   transition: background .5s linear;
-}
-.root{
-  position: relative;
 }
 a{
   color: var(--color-base1);

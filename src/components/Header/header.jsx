@@ -2,7 +2,7 @@ import { Link } from 'react'
 import './header.css'
 function Header(){
   function btnModo(){
-    document.body.classList.toggle("lightmode")
+    document.body.classList.toggle('darkMode')
   }
   function menuMobile(){
     const nav = document.getElementById('nav')

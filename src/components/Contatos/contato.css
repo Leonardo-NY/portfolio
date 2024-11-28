@@ -1,23 +1,86 @@
 footer{
-  height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  background-color: var(--back-color-2);
+  padding-top: 20px;
 }
 footer p{
   font-family: var(--font-light);
   font-size: .7em;
 }
+footer h2{
+  font-size: 1.5em;
+  font-family: var(--font-bold);
+  margin: 5% 0 15%;
+}
 .contatos{
-  width: 100%;
   margin: 30px 0;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  gap: 20px;
+  padding: 0 10px;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
 }
-footer img{
-  background-color: red;
-  width: 30px;
-  height: 30px;
+.contatos p{
+  font-size: 1.2em;
+  font-family: var(--font-menium);
+  z-index: 2;
+}
+.links-contatos{
+  z-index: 0;
+  border-top: 1px solid var(--color-base);
+  padding: 20px 10px;
+  flex: 1 1 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  position: relative;
+}
+.links-contatos:hover{
+  color: #fff;
+}
+.links-contatos:hover::after{
+  content: '';
+  z-index: 1;
+  left: 0;
+  height: 103%;
+  width: 0;
+  position: absolute;
+  animation: btnHover .5s linear forwards;
+}
+#ico-insta{
+  background-image: url(../../assets/images/icones-contato/instagram.png);
+}
+#ico-linke{
+  background-image: url(../../assets/images/icones-contato/logotipo-do-linkedin.png);
+}
+#ico-email{
+  background-image: url(../../assets/images/icones-contato/enviar.png);
+}
+footer span{
+  z-index: 2;
+  background-size: cover;
+  background-color: var(--mark-color1);
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+#pfinal{
+  margin: 10% 0;
+}
+@media(min-width: 650px){
+  .contatos{
+    flex-direction: row;
+    padding: 0 7%;
+  }
+}
+@keyframes btnHover{
+  to{
+    background-color: var(--mark-color3);
+    width: 100%;
+  }
 }
