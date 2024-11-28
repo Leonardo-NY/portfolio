@@ -85,9 +85,3 @@ footer span{
     font-size: 1em;
   }
 }
-@keyframes btnHover{
-  to{
-    background-color: var(--mark-color3);
-    width: 100%;
-  }
-}

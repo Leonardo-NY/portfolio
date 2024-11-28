@@ -64,3 +64,10 @@ a{
   background-color: var(--mark-color3);
   border-radius: 5px;
 }
+/*ANIMAÇÕES*/
+@keyframes btnHover{
+  to{
+    background-color: var(--mark-color3);
+    width: 100%;
+  }
+}

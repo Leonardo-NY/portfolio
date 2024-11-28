@@ -1,17 +1,72 @@
 #sobre{
   height: 100vh;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding: 25px;
   gap: 10%;
 }
-#sobre p{
-  width: 300px;
-  text-align: start;
+
+.div-sobre{
+  width: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: space-evenly;
+  gap: 30px;
 }
-#p-sobre-um{
-  translate: -50px;
+.div-sobre p{
+  max-width: 400px;
+  font-family: var(--font-light);
 }
-#p-sobre-dois{
-  translate: 50px;
+.div-sobre span{
+  font-family: var(--font-num);
+  font-size: 2em;
+  color: var(--mark-color2);
+  align-self: flex-start;
+  margin: 20px;
+}
+.div-sobre button{
+  border: 1px solid var(--mark-color1);
+  font-family: var(--font-light);
+  background-color: transparent;
+  overflow: hidden;
+  height: 50px;
+  padding: 0 30px;
+  border-radius: 25px;
+  position: relative;
+}
+.div-sobre button p{
+  z-index: 3;
+  font-size: 1.2em;
+  color: var(--color-base);
+  font-family: var(--font-light);
+  position: relative;
+}
+.div-sobre button:hover{
+  color: #fff;
+}
+.div-sobre button:hover::after{
+  content: '';
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 103%;
+  width: 0;
+  position: absolute;
+  animation: btnHover .3s linear forwards;
+}
+@media (max-width: 600px){
+  #sobre{
+    justify-content: space-evenly;
+  }
+  .div-sobre{
+    flex-direction: column-reverse;
+  }
+  .div-sobre p{
+    max-width: 100%;
+  }
+  .div-sobre button{
+    width: 100%;
+  }
 }
