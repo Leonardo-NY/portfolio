@@ -14,10 +14,10 @@ function Header(){
         <h2>LY</h2>
         <nav id='nav'>
           <ul id="menu">
-            <li><a class="links nav" href="#">Home</a></li>
+            <li><a class="links nav" href="#home">Home</a></li>
             <li><a class="links nav" href="#">sobre</a></li>
             <li><a  class="links nav"href="#projetos">Projetos</a></li>
-            <li><a class="links nav" href="#">Contatos</a></li>
+            <li><a class="links nav" href="#contato">Contatos</a></li>
             <li><button id="mode"onClick={btnModo} className=''><div></div></button></li>
           </ul>
           <button id='btnMenu' onClick={menuMobile}>

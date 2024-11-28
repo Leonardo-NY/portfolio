@@ -8,11 +8,12 @@ footer{
 footer h2{
   font-size: 1.4em;
   font-family: var(--font-bold);
-  margin: 2% 0 5% ;
+  margin: 2% 0 10% ;
 }
 #pstart{
   color: var(--mark-color3);
   font-size: .8em;
+  margin: 10px 0;
 }
 .contatos{
   display: flex;

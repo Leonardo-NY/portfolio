@@ -2,7 +2,7 @@ import './contato.css'
 function Contato(){
   return(
     <>
-      <footer>
+      <footer id='contato'>
         <p id='pstart'>PRECISA DE UM DESENVOLVEDOR?</p>
         <h2>Vamos trabalhar juntos.</h2>
         <section className='contatos'>
