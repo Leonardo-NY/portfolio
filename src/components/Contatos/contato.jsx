@@ -3,7 +3,7 @@ function Contato(){
   return(
     <>
       <footer>
-        <p>Precisa de um Desenvolvedor?</p>
+        <p id='pstart'>PRECISA DE UM DESENVOLVEDOR?</p>
         <h2>Vamos trabalhar juntos.</h2>
         <section className='contatos'>
           <div className='links-contatos'>
@@ -13,6 +13,10 @@ function Contato(){
           <div className='links-contatos'>
             <p>Linkedin</p>
             <span id='ico-linke'></span>
+          </div>
+          <div className='links-contatos'>
+            <p>E-mail</p>
+            <span id='ico-email'></span>
           </div>
           <div className='links-contatos'>
             <p>E-mail</p>

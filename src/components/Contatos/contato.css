@@ -5,20 +5,19 @@ footer{
   justify-content: center;
   padding-top: 20px;
 }
-footer p{
-  font-family: var(--font-light);
-  font-size: .7em;
-}
 footer h2{
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-family: var(--font-bold);
-  margin: 5% 0 15%;
+  margin: 2% 0 5% ;
+}
+#pstart{
+  color: var(--mark-color3);
+  font-size: .8em;
 }
 .contatos{
-  margin: 30px 0;
   display: flex;
   gap: 20px;
-  padding: 0 10px;
+  padding: 0 25px;
   flex-direction: column;
   width: 100%;
   justify-content: space-around;
@@ -69,7 +68,9 @@ footer span{
   border-radius: 50%;
 }
 #pfinal{
-  margin: 10% 0;
+  font-size: .7em;
+  font-family: var(--font-light);
+  margin: 10% 0 5%;
 }
 @media(min-width: 650px){
   .contatos{
@@ -77,7 +78,10 @@ footer span{
     padding: 0 7%;
   }
   footer h2{
-    font-size: 1.3em;
+    font-size: 3em;
+  }
+  #pstart{
+    font-size: 1em;
   }
 }
 @keyframes btnHover{
